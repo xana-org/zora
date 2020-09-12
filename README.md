@@ -1,6 +1,6 @@
 # Zoracles
 
-##Reference Implementation x Open Oracle
+## Reference Implementation x Open Oracle 
 
 The Open Oracle is a standard developed by Compound and utilized by Zoracles. Their SDK allows reporters to sign key-value pairs (e.g. a price feed) that interested users can post to the blockchain.
 
@@ -18,4 +18,4 @@ UniswapAnchoredView - prices are anchored to this time-weighted index to set bou
 
 These main contracts will allow Open Oracle users to upgrade their price feeds to leverage confidentiality of zero-knowledge proofs.
 
-####Note####: all code contributed to this repository must be licensed under each of 1. MIT, 2. BSD-3, and 3. GPLv3. By contributing code to this repository, you accept that your code is allowed to be released under any or all of these licenses or licenses in substantially similar form to these listed above.
+#### _ _ Note: all code contributed to this repository must be licensed under each of 1. MIT, 2. BSD-3, and 3. GPLv3. By contributing code to this repository, you accept that your code is allowed to be released under any or all of these licenses or licenses in substantially similar form to these listed above.
