@@ -1,9 +1,9 @@
-# zora
 Zoracles Reference Implementation - Open Oracle (From Compound)
 
 Open Oracle
 
-The Open Oracle is a standard and SDK allowing reporters to sign key-value pairs (e.g. a price feed) that interested users can post to the blockchain. The system has a built-in view system that allows clients to easily share data and build aggregates (e.g. the median price from several sources).
+The Open Oracle is a standard developed by Compound and utilized in Zoracles ZKPs reference implementation. Their SDK allows reporters to sign key-value pairs (e.g. a price feed) that interested users can post to the blockchain. The system has a built-in view system that allows clients to easily share data and build aggregates (e.g. the median price from several sources).
+
 Contracts
 
 First, you will need solc 0.6.6 installed. Additionally for testing, you will need TypeScript installed and will need to build the open-oracle-reporter project by running cd sdk/javascript && yarn.
@@ -47,5 +47,3 @@ The poster is a simple application that reads from a given feed (or set of feeds
 Contributing
 
 Note: all code contributed to this repository must be licensed under each of 1. MIT, 2. BSD-3, and 3. GPLv3. By contributing code to this repository, you accept that your code is allowed to be released under any or all of these licenses or licenses in substantially similar form to these listed above.
-
-Please submit an issue (or create a pull request) for any issues or contributions to the project. Make sure that all test cases pass, including the integration tests in the root of this project.
