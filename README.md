@@ -2,8 +2,6 @@
 
 Reference Implementation x Open Oracle
 
-Open Oracle
-
 The Open Oracle is a standard developed by Compound and utilized by Zoracles. Their SDK allows reporters to sign key-value pairs (e.g. a price feed) that interested users can post to the blockchain. The system has a built-in view system that allows clients to easily share data and build aggregates (e.g. the median price from several sources).
 
 Zoracles enhances Open Oracle by providing zero-knowledge proofs for confidential data delivery to smart contracts. Our ZKPs have been built with Zokrates to speed the development process and enable deployment on any Open Oracle implementation.
