@@ -10,7 +10,7 @@ Contracts
 
 Zoracles will be implemented on the following contracts:
 
-    OpenZoraclesPriceData - this is where signed priced will be kept
+    OpenZoraclesPriceData - this is where signed prices will be stored
     
     UniswapAnchoredView - prices are anchored to this time-weighted index to set boundaries on acceptable values and prevents adversarial influence 
 
