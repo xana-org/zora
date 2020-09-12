@@ -1,6 +1,4 @@
-# zora
-Zoracles Reference Implementation - Open Oracle
-Zoracles (Reference Implementation x Open Oracle)
+# Zoracles (Reference Implementation x Open Oracle)
 
 Open Oracle
 
