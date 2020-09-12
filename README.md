@@ -18,6 +18,20 @@ yarn run compile
 
 To deploy contracts locally, you can run:
 
+Contracts
+
+First, you will need solc 0.6.6 installed. Additionally for testing, you will need TypeScript installed and will need to build the open-oracle-reporter project by running cd sdk/javascript && yarn.
+
+To fetch dependencies run:
+
+yarn install
+
+To compile everything run:
+
+yarn run compile
+
+To deploy contracts locally, you can run:
+
 yarn run deploy --network development OpenOraclePriceData
 
 Note: you will need to be running an Ethereum node locally in order for this to work. E.g., start ganache-cli in another shell.
