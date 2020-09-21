@@ -2,7 +2,7 @@
 
 pragma solidity ^0.6.10;
 
-import "./OpenOracleData.sol";
+import "./OpenZoraclesData.sol";
 
 /**
  * @title The Open Oracle Price Data Contract
@@ -10,7 +10,7 @@ import "./OpenOracleData.sol";
  * @author Compound Labs, Inc.
  * @author Zoracles Developers
  */
-contract OpenOraclePriceData is OpenOracleData {
+contract OpenZoraclesPriceData is OpenZoraclesData {
     ///@notice The event emitted when a source writes to its storage
     event Write(address indexed source, string key, uint64 timestamp, uint64 value);
     ///@notice The event emitted when the timestamp on a price is invalid and it is not written to storage
